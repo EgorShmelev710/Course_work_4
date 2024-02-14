@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "fourth-course-work"
+version = "0.1.0"
+description = ""
+authors = ["Egor Shmelev <shmelevyegor25@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+pytest = "^8.0.0"
+pytest-cov = "^4.1.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
